@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inputs</title>
+  </head>
+  <form class="" action="index.html" method="post">
+    <label for="avatar">Choose a profile picture:</label>
+<h3>Upload a photo:</h3>
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg"><br>
+       <br>
+       <label for="week">Choose a week in May or June:</label>
+
+<input type="week" name="week" id="camp-week"
+       min="2020-W18" max="2020-W26" required><br>
+       <br>
+       <label for="phone">Enter your phone number:</label>
+
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+
+<small>Format: 123-456-7890</small>
+
+  </form>
+  <body>
+
+  </body>
+</html>
